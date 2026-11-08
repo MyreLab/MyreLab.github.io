@@ -583,3 +583,35 @@ a.dotted-link {
         color: $heart;
     }
 }
+
+/* Skill tags (replaces the skill level bars) */
+.skills {
+    .skill-group {
+        margin-bottom: 20px;
+        &:last-child { margin-bottom: 0; }
+    }
+    .skill-title {
+        font-size: 15px;
+        margin: 0 0 8px;
+    }
+    .skill-tags {
+        margin: 0;
+        .list-inline-item {
+            display: inline-block;
+            background: #eef1f4;
+            color: $text-color;
+            font-size: 13px;
+            line-height: 1.4;
+            padding: 3px 9px;
+            margin: 0 4px 6px 0;
+            border-radius: 3px;
+        }
+    }
+}
+
+/* Bulleted highlights in work experience */
+.experience .item ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+    li { margin-bottom: 6px; }
+}

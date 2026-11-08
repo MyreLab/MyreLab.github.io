@@ -827,3 +827,47 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+/* Skill tags (replaces the skill level bars) */
+.skills .skill-group {
+  margin-bottom: 20px;
+}
+
+.skills .skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skills .skill-title {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+
+.skills .skill-tags {
+  margin: 0;
+}
+
+.skills .skill-tags .list-inline-item {
+  display: inline-block;
+  background: #eef1f4;
+  color: #434343;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 3px 9px;
+  margin: 0 4px 6px 0;
+  border-radius: 3px;
+}
+
+/* Bulleted highlights in work experience */
+.experience .item ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.experience .item ul li {
+  margin-bottom: 6px;
+}
+
+body[data-theme="dark"] .skills .skill-tags .list-inline-item {
+  background: #2b2e33;
+  color: rgba(255, 255, 255, 0.82);
+}
