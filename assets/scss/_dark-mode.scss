@@ -158,4 +158,9 @@ body[data-theme="dark"] {
     }
 
   
+
+  .skills .skill-tags .list-inline-item {
+      background: lighten($dm-background, 8%);
+      color: rgba(255, 255, 255, 0.82);
+  }
 }
