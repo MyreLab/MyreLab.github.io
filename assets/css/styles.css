@@ -857,16 +857,6 @@ body[data-theme="dark"] .text-muted {
   border-radius: 3px;
 }
 
-/* Bulleted highlights in work experience */
-.experience .item ul {
-  padding-left: 1.2rem;
-  margin-bottom: 0;
-}
-
-.experience .item ul li {
-  margin-bottom: 6px;
-}
-
 body[data-theme="dark"] .skills .skill-tags .list-inline-item {
   background: #2b2e33;
   color: rgba(255, 255, 255, 0.82);
