@@ -98,7 +98,7 @@
                                     <h3 class="title"><a href="https://github.com/MyreLab/semaglutide-spread" target="_blank">How Ozempic Spread Across the US and UK, Tracked Like an Epidemic</a>
                                         <span class="badge badge-theme">2026</span>
                                     </h3>
-                                    <p class="mb-2">This data engineering project tracks semaglutide like an epidemic: who prescribed it first, how fast it spread, and where. Python pipelines download and validate data covering 9.4 billion Medicare claims and 12.2 billion UK prescriptions into Parquet, and dbt models in DuckDB turn it into adoption curves and maps. Each build runs 138 data tests and 109 code tests, and GitHub Actions checks every pull request.</p>
+                                    <p class="mb-2">This pipeline tracks semaglutide like an epidemic: who prescribed it first, how fast it spread, and where. Python downloaders validate and store data covering 9.4 billion Medicare claims and 12.2 billion UK prescriptions as Parquet. dbt models in DuckDB turn it into adoption curves and maps, and Dagster runs it all on a monthly schedule. <em>Python, dbt, DuckDB, Dagster, GitHub Actions.</em></p>
                                     <p><a class="more-link" href="https://github.com/MyreLab/semaglutide-spread" target="_blank"><i class="fab fa-github-alt"></i>View on GitHub</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
@@ -111,7 +111,7 @@
                                     <h3 class="title"><a href="https://github.com/MyreLab/mesa-meal-planner" target="_blank">Mesa: Meal Plans Written by AI, Validated by Code</a>
                                         <span class="badge badge-theme">2026</span>
                                     </h3>
-                                    <p class="mb-2">An AI tool plans my weekly meals &amp; shopping lists in a scheduled job. Behind the scenes, a small data pipeline checks each plan against a set of rules before meals reach the dashboard, and tests run in GitHub Actions to check every code change. JavaScript, JSON Schema, GitHub Actions.</p>
+                                    <p class="mb-2">An AI tool plans my weekly meals &amp; shopping lists in a scheduled job. Behind the scenes, a small data pipeline checks each plan against a set of rules before meals reach the dashboard, and tests run in GitHub Actions to check every code change. <em>JavaScript, JSON Schema, GitHub Actions.</em></p>
                                     <p><a class="more-link" href="https://github.com/MyreLab/mesa-meal-planner" target="_blank"><i class="fab fa-github-alt"></i>View on GitHub</a><a class="more-link ms-4" href="https://myrelab.github.io/mesa-meal-planner/" target="_blank"><i class="fas fa-external-link-alt"></i>Live demo</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
@@ -124,7 +124,7 @@
                                     <h3 class="title"><a href="https://github.com/MyreLab/ny-covid-waves" target="_blank">How COVID-19 Waves Traveled Across New York State</a>
                                         <span class="badge badge-theme">2023</span>
                                     </h3>
-                                    <p class="mb-2">Did every COVID-19 wave start in New York City and spread outward? Using daily positive tests for all 62 counties (2020-2023), I timed each county against NYC and related the delay to distance. Only the first wave followed that pattern. Python, scipy, geopandas, folium.</p>
+                                    <p class="mb-2">Did every COVID-19 wave start in New York City and spread outward? Using daily positive tests for all 62 counties (2020-2023), I timed each county against NYC and related the delay to distance. Only the first wave followed that pattern. <em>Python, scipy, geopandas, folium.</em></p>
                                     <p><a class="more-link" href="https://github.com/MyreLab/ny-covid-waves" target="_blank"><i class="fab fa-github-alt"></i>View on GitHub</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
@@ -137,7 +137,7 @@
                                     <h3 class="title"><a href="https://github.com/MyreLab/thames-tidal-variation" target="_blank">River Thames Tidal Variation</a>
                                         <span class="badge badge-theme">2023</span>
                                     </h3>
-                                    <p class="mb-2">A century of digitized tide records (~650k readings from 13 gauges, 1911-1995), cleaned and merged with a reusable loading function. I measured tidal range and extreme-tide frequency at each gauge and used an isolation forest to flag anomalous readings at London Bridge. Python, pandas, scikit-learn, Bokeh.</p>
+                                    <p class="mb-2">A century of digitized tide records (~650k readings from 13 gauges, 1911-1995), cleaned and merged with a reusable loading function. I measured tidal range and extreme-tide frequency at each gauge and used an isolation forest to flag anomalous readings at London Bridge. <em>Python, pandas, scikit-learn, Bokeh.</em></p>
                                     <p><a class="more-link" href="https://github.com/MyreLab/thames-tidal-variation" target="_blank"><i class="fab fa-github-alt"></i>View on GitHub</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
@@ -150,7 +150,7 @@
                                     <h3 class="title"><a href="https://github.com/MyreLab/ulysses-sentiment-analysis" target="_blank">Named-Entity Sentiment Analysis of James Joyce's <em>Ulysses</em></a>
                                         <span class="badge badge-theme">2023</span>
                                     </h3>
-                                    <p class="mb-2">Joyce's 800-page novel, scraped and analyzed for tone and sentiment. I mapped 88 name variations to 30 main characters, scored every sentence with VADER, and then tested whether the scores simply reflect each chapter's tone. Mostly they don't, though Joyce's style still sneaks in. Python, NLTK, BeautifulSoup.</p>
+                                    <p class="mb-2">Joyce's 800-page novel, scraped and analyzed for tone and sentiment. I mapped 88 name variations to 30 main characters, scored every sentence with VADER, and then tested whether the scores simply reflect each chapter's tone. Mostly they don't, though Joyce's style still sneaks in. <em>Python, NLTK, BeautifulSoup.</em></p>
                                     <p><a class="more-link" href="https://github.com/MyreLab/ulysses-sentiment-analysis" target="_blank"><i class="fab fa-github-alt"></i>View on GitHub</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
@@ -259,25 +259,25 @@
                             <div class="skill-group">
                                 <h3 class="skill-title">Data platforms</h3>
                                 <ul class="skill-tags list-inline">
-                                    <li class="list-inline-item">Databricks</li><li class="list-inline-item">Apache Spark</li><li class="list-inline-item">Snowflake</li><li class="list-inline-item">AWS</li><li class="list-inline-item">DuckDB</li><li class="list-inline-item">Parquet</li>
+                                    <li class="list-inline-item">Databricks</li><li class="list-inline-item">dbt</li><li class="list-inline-item">Snowflake</li><li class="list-inline-item">AWS</li><li class="list-inline-item">DuckDB</li><li class="list-inline-item">Parquet</li>
                                 </ul>
                             </div>
                             <div class="skill-group">
                                 <h3 class="skill-title">Engineering practices</h3>
                                 <ul class="skill-tags list-inline">
-                                    <li class="list-inline-item">Modular, reusable pipelines</li><li class="list-inline-item">Data quality validation</li><li class="list-inline-item">Unit &amp; regression testing</li><li class="list-inline-item">CI/CD (GitHub Actions)</li><li class="list-inline-item">Databricks Asset Bundles</li><li class="list-inline-item">Workflow orchestration</li><li class="list-inline-item">Reproducible environments</li><li class="list-inline-item">Git &amp; pull requests</li>
+                                    <li class="list-inline-item">Modular, reusable pipelines</li><li class="list-inline-item">Data quality &amp; contracts (dbt, JSON Schema)</li><li class="list-inline-item">Unit &amp; regression testing</li><li class="list-inline-item">CI/CD (GitHub Actions)</li><li class="list-inline-item">Databricks Asset Bundles</li><li class="list-inline-item">Workflow orchestration (Dagster)</li>
                                 </ul>
                             </div>
                             <div class="skill-group">
                                 <h3 class="skill-title">Analysis, machine learning &amp; AI</h3>
                                 <ul class="skill-tags list-inline">
-                                    <li class="list-inline-item">Machine learning (scikit-learn)</li><li class="list-inline-item">Anomaly detection</li><li class="list-inline-item">Cluster analysis</li><li class="list-inline-item">Regression &amp; mixed-effects models</li><li class="list-inline-item">Time series &amp; forecasting</li><li class="list-inline-item">NLP &amp; text processing</li><li class="list-inline-item">Geospatial analysis</li><li class="list-inline-item">LLM workflows (Claude)</li><li class="list-inline-item">Data visualization (Tableau)</li>
+                                    <li class="list-inline-item">Machine learning</li><li class="list-inline-item">Anomaly detection</li><li class="list-inline-item">Cluster analysis</li><li class="list-inline-item">Regression &amp; mixed-effects models</li><li class="list-inline-item">Time series &amp; forecasting</li><li class="list-inline-item">NLP &amp; text processing</li><li class="list-inline-item">Geospatial analysis</li><li class="list-inline-item">LLM workflows</li><li class="list-inline-item">Data visualization (Tableau)</li>
                                 </ul>
                             </div>
                             <div class="skill-group">
                                 <h3 class="skill-title">Healthcare data</h3>
                                 <ul class="skill-tags list-inline">
-                                    <li class="list-inline-item">Medicare &amp; Medicaid claims (TAF)</li><li class="list-inline-item">ICD-10</li><li class="list-inline-item">Syndromic surveillance</li><li class="list-inline-item">Vital statistics</li><li class="list-inline-item">HIPAA &amp; PHI</li>
+                                    <li class="list-inline-item">Medicare &amp; Medicaid data (TAF, FFS claims, MBSF)</li><li class="list-inline-item">CCW &amp; VRDC</li><li class="list-inline-item">ICD-10</li><li class="list-inline-item">Syndromic surveillance</li><li class="list-inline-item">Vital statistics</li><li class="list-inline-item">HIPAA &amp; PHI</li>
                                 </ul>
                             </div>
                         </div><!--//content-->
